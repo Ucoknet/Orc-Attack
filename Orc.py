@@ -26,7 +26,7 @@ times = int(input("[/] Enter Packet Coy : "))
 threads = int(input("[/] Enter Thread Coy (1000) : "))
 
 def run():
-    data = random._urandom(1000)
+    data = random._urandom(5000)
     i = random.choice(("[*]","[!]","[#]","[?]"))
     while True:
         try:
