@@ -1,14 +1,14 @@
-# Coding Time By : FardhanXWizzSec
-# Tools Usage By : FardhanXWizzSec
-# Tools Credit By : FardhanXWizzSec
-# RelaxMontage TEAM
+# Coding Time By : Orc
+# Tools Usage By : Orc
+# Tools Credit By : Orc
+# Orc Ras
 
 # Import Module
 import random
 import socket
 import threading
 import os
-# Info Tools [ RM Tools ]
+# Info Tools [ Orc Tools ]
 os.system("clear")
 
 print("•------------------------------------•")
